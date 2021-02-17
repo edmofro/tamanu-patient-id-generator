@@ -22,14 +22,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Generate Tamanu Patient ID</title>
+        <title>Tamanu Patient ID GeneratorD</title>
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Tamanu Patient ID Generator</h1>
-
         <p className={styles.description}>Your new patient id is</p>
-        <h3>{generateId()}</h3>
+        <h1 className={styles.title}>{generateId()}</h1>
 
         <p className={styles.description}>Refresh the page for another</p>
       </main>
